@@ -1,0 +1,7 @@
+model,train_s,infer_s,note
+xgboost,182.36,0.0027,"CPU, early-stop"
+mlp,70.6,0.0006,torch CPU
+knn,0.13,0.5124,fit=index build
+linear_regression,1.09,0.0001,OLS lstsq
+svm,8.29,0.0002,SGD 10ep
+_embedding_precompute_once,8.8,0.0,"CPU dedup, shared"

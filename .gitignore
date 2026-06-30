@@ -1,0 +1,10 @@
+.env
+*.env
+*env*.txt
+*.npz
+ml_features*
+__pycache__/
+*.pyc
+venv/
+ftvenv/
+data_input/train_strings.parquet

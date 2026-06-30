@@ -1,0 +1,3 @@
+stage,train_s,infer_s,note
+embedding_precompute,8.81,0.0,one-time CPU dedup
+mlp,70.56,0.0006,"torch CPU, early-stop"

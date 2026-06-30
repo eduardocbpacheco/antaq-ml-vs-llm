@@ -1,0 +1,7 @@
+model,strategy,n,approx_prompt_tokens,lat_median_s,lat_mean_s
+qwen3_32b,zero_shot,15,793,0.58,0.6
+qwen3_32b,few_shot_5,15,4502,0.71,0.74
+qwen3_32b,few_shot_20,15,15750,1.65,1.56
+deepseek_v3,zero_shot,15,793,0.66,0.99
+deepseek_v3,few_shot_5,15,4502,1.01,1.4
+deepseek_v3,few_shot_20,15,15750,1.98,1.63
