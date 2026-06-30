@@ -5,7 +5,7 @@ machine learning** against **large language models** on predicting ship turnarou
 (operation time `TOperacao` and total moored time `TAtracado`) from Brazilian National Waterway
 Transportation Agency (ANTAQ) data, using a leakage-controlled, berthing-level pipeline.
 
-**Paper:** `paper/paper.pdf` (KDMiLe). Authors: E. C. B. Pacheco and J. A. Ramos.
+Authors: E. C. B. Pacheco and J. A. Ramos. KDMiLe submission.
 
 ## TL;DR results (200-berthing held-out test, 20 seeds, paired Wilcoxon + Cohen's d)
 
@@ -26,7 +26,6 @@ Transportation Agency (ANTAQ) data, using a leakage-controlled, berthing-level p
 ## Repository layout
 
 ```
-paper/        paper.tex, refs.bib, kdmile.cls/.bst, figures, paper.pdf
 notebooks/    2_eda... (build leakage-free train/test), 3_train_ml..., 4_llm_inference, 5_comparisons
 scripts/      finetune.py (generative LLM LoRA), encoder_ft.py (encoder+reg head),
               serialize.py (case -> PT description via Bedrock), ml_curve*.py (data-matched ML curves),

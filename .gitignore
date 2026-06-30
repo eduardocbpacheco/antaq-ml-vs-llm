@@ -8,3 +8,6 @@ __pycache__/
 venv/
 ftvenv/
 data_input/train_strings.parquet
+
+# paper kept out of the public repo
+paper/
