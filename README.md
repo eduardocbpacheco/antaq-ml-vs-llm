@@ -45,7 +45,7 @@ consolidated_table.csv, datamatched_full.csv   summary tables
    not committed here — regenerate it or fetch from Zenodo).
 2. **ML models + data-efficiency curves.** `notebooks/3_*.ipynb`, then `scripts/ml_curve*.py`.
 3. **Prompted LLMs.** `notebooks/4_*.ipynb` (Amazon Bedrock; set AWS credentials in a local
-   `.env` — never commit it).
+   `.env`).
 4. **Generative-LLM fine-tuning.** `scripts/serialize.py` (descriptions) then
    `scripts/finetune.py` (Qwen2.5-1.5B + LoRA, Apple MPS / CUDA).
 5. **Encoder + regression head.** `scripts/encoder_ft.py`.
@@ -56,7 +56,6 @@ Environment: Python 3.11, `torch`, `transformers`, `peft`, `xgboost`, `scikit-le
 
 ## Notes
 
-- **No secrets are committed.** AWS credentials live only in a local `.env` (git-ignored).
 - Fine-tuning was run on an Apple M5 Pro (MPS, bf16); prompted LLMs via Amazon Bedrock.
 - All metrics are reported per seed; comparisons use the paired Wilcoxon signed-rank test and
   pooled Cohen's d.
